@@ -42,3 +42,37 @@ grid-template-areas:
 ```  
 
 Debemos definir las áreas en el orden en que deben colocarse en la página, la definición se hizo en el orden correcto.  
+
+## Definiendo las columnas  
+
+Los blogs suelen estar divididos en dos columnas: la de la izquierda con la lista de publicaciones y la de la derecha con información sobre el blog.
+
+Usando CSS Grid Layout, ¿cuáles son las formas correctas de definir dos columnas como en el ejemplo anterior?  
+
+Estamos creando dos columnas donde su tamaño será 80vw a la izquierda y 20vw a la derecha (también podemos usar otras unidades de medida).
+
+```css
+grid-template-columns: 80vw 20vw;
+```
+
+Estamos creando dos columnas donde el tamaño de las mismas será automático según el contenido que se inserte.
+
+```css
+grid-template-columns: auto auto;
+```
+
+## Definiendo líneas / rows
+
+¿Cómo podemos definir el tamaño de las cuatro líneas?  
+
+Estamos creando cuatro líneas donde el tamaño de las mismas será automático según el contenido que se inserte en ellas.
+
+```css
+grid-template-rows: auto auto auto auto;
+```
+
+Estamos creando cuatro líneas donde el tamaño de ellas serán: 10% para la primera, 20px para la segunda, 50vh para la tercera y 10% para la cuarta. Podemos mezclar unidades de medida en las definiciones.
+
+```css
+grid-template-rows: 10% 20px 50vh 10%;
+```  
