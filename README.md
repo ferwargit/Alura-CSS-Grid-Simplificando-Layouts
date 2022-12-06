@@ -76,3 +76,33 @@ Estamos creando cuatro líneas donde el tamaño de ellas serán: 10% para la pri
 ```css
 grid-template-rows: 10% 20px 50vh 10%;
 ```  
+
+## Sección destacados
+
+4 Columnas y 3 filas
+
+```css
+display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  height: calc(100vh - 50px);
+```
+
+Para que las 3 filas se distribuyan tengo que dale height y calcular sobre lo asignado 100vh y restarle los 50px del encabezado.
+
+## Posicionando Elementos - Ejemplo
+
+```css
+.destaques__secundario:nth-child(2) {
+  background: url(../img/pubg.jpg) center / cover no-repeat;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* grid-column-start: 4;
+  grid-column-end: 5; */
+  grid-column: 4 / 5;
+  /* grid-row-start: 1;
+  grid-row-end: 2; */
+  grid-row: 1 / 2;
+}
+```
