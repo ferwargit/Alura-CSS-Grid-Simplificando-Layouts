@@ -106,3 +106,7 @@ Para que las 3 filas se distribuyan tengo que dale height y calcular sobre lo as
   grid-row: 1 / 2;
 }
 ```
+
+## Para saber mas
+
+<https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem>
