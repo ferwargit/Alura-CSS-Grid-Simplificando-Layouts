@@ -1,10 +1,11 @@
 .populares {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 .populares__contenido {
     display: flex;
     flex-wrap: wrap;
+    grid-area: contenido;
     padding: 1rem 0rem;
 }
 
@@ -13,7 +14,7 @@
     display: grid;
     grid-template-areas: 
         "card-imagem"
-        "card-corpo";
+        "card-base";
     grid-template-columns: 100%;
     grid-template-rows: 173px auto;
     margin-right: 1rem;
@@ -32,11 +33,11 @@
 
 .populares__card___base {
     display: grid;
-    grid-area: card-corpo;
+    grid-area: card-base;
     grid-row-gap: .5rem;
     grid-template-areas: 
         "card-header"
-        "card-contenido";
+        "card-descripcion";
     grid-template-rows: 50px auto;
     padding: .75rem;
 }
@@ -56,6 +57,7 @@
     line-height: 1.5;
     margin: 1rem 0;
     text-align: justify;
+
 }
 
 .populares__titulo {

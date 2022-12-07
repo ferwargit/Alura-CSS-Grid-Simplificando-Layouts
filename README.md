@@ -110,3 +110,5 @@ Para que las 3 filas se distribuyan tengo que dale height y calcular sobre lo as
 ## Para saber mas
 
 <https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem>
+
+## Creamos archivo populares.css
